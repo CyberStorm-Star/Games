@@ -1,0 +1,40 @@
+body {
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-position: center; /* Arka plan resmini ortalamak için center kullanın */
+  height: 100vh; /* Ekran yüksekliği kadar yapar */
+  width: 100vw; /* Ekran genişliği kadar yapar */
+  position: relative;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#game-container {
+  color: azure;
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 50vh;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#winner {
+  color: red;
+}

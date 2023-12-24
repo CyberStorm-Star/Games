@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taş Kağıt Makas</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+     <div id="game-container">
+    <div id="player-choice">Oyuncu Seçimi: <select id="player-selection">
+      <option value="Taş">Taş</option>
+      <option value="Kağıt">Kağıt</option>
+      <option value="Makas">Makas</option>
+      <!-- Diğer şehirleri buraya ekleyin -->
+    </select></div>
+    <div id="ai-choice">Yapay Zeka Seçimi: <span id="ai-selection">---</span></div>
+    <button onclick="startGame()">Start</button>
+    <div id="result">Sonuç: <span id="result-message">---</span></div>
+  </div>
+</div>
+ 
+
+  <script src="./script.js"></script>
+</body>
+</html>
